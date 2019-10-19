@@ -1,6 +1,9 @@
-require "FL_Beach_Locations/version"
+require_relative './FL_Beach_Locations/version'
+require_relative './FL_Beach_Locations/scraper.rb'
+require_relative './FL_Beach_Locations/cli.rb'
+
+
 
 module FLBeachLocations
-  class Error < StandardError; end
-  # Your code goes here...
+    # Your code goes here...
 end

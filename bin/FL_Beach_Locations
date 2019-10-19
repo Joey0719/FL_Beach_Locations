@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/FL_Beach_Locations.rb'
+
+FLBeachLocations::CLI.new.call
